@@ -31,7 +31,10 @@ const FormsPractice = () => {
          <Grid item xs={6}>
          <form onSubmit={(e) => handleSubmit(e, names,npi,business,telephone,email)}>
 
-            {/*ideally this text field would be in a Higher Order component, similar to the CardComponent, however in the interest in time , I omitted it. */
+            {/*ideally this text field would be in a Higher Order component, similar to the CardComponent, however in the interest in time , I omitted it.
+            I also shouldve done more strictions on the types of inputs, masking for certain numbers. But given the vague instructions , I decided to leave this portion out as I was
+             focused on the 
+            */
             }
           <><TextField  required label="First and Last name" variant="filled" value={names} onChange={e => (changeFunction(e, setNames))} /></>
          <> <TextField  required label="NPI Number" variant="filled" value={npi} onChange={ e => changeFunction(e,setNpi)} /></>

@@ -12,7 +12,7 @@ import csvPractice from './csvPractice';
 const App = () => {
   const Parenthesis = CardComponent(paranthesisCheck)
   const Form = CardComponent(formsPractice)
-  // const CSV = CardComponent(csvPractice)
+  const CSV = CardComponent(csvPractice)
   return (
   <div>
      <Grid  style={{paddingTop: '10%'}} alignContent={"center"} justify={"center"} container spacing={3}>
@@ -24,8 +24,8 @@ const App = () => {
         </Grid>
         <Grid item spacing={2}>
           {/* I encountered a weird issue when trying to complete this. Given the time constraints I ommited this. However, I would to hear about the
-           solution and Node.js integration as I had planned to do this in the front-end.
-          <CSV/> */}
+           solution and Node.js integration as I had planned to do this in the front-end. You can see my progress in csvPractice.js, however I only had touched the surface of it. */}
+          <CSV/>
         </Grid>
       </Grid>
   </div>
