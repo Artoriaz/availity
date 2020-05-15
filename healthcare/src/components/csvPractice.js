@@ -38,6 +38,8 @@ const handleFile = (data, setter) => {
     listofCompanies.push(item.insurance_company);
   });
   data.map(item => {
+
+    // had not finished the logic at this time , I'm still working to get some personal practice.
     let tempArray = [];
         if(!tempArray.includes(item.first_and_last_name)) {
 
